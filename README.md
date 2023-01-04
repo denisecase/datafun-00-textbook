@@ -1,4 +1,4 @@
-# datafun-00-textbook
+# datafun-01-textbook
 
 > Guidance on how to get the textbook code up and running.
 
@@ -49,7 +49,7 @@ You are encouraged to use all resources available to understand these different 
 
 When you finish, you'll have a new project folder under Documents (or wherever you keep course projects):
 
-- Documents/datafun-00-getting-started
+- Documents/datafun-01-getting-started
 - Documents/IntroToPython
 
 
@@ -58,7 +58,7 @@ When you finish, you'll have a new project folder under Documents (or wherever y
 Before trying the examples, first:
 
 1. Purchase the [textbook](https://deitel.com/intro-to-python-for-computer-science-and-data-science/)
-2. Set up a good working environment. [Follow the steps here](https://github.com/denisecase/datafun-00-getting-started).
+2. Set up a good working environment. [Follow the steps here](https://github.com/denisecase/datafun-01-getting-started).
 
 You should be able to:
 
@@ -103,7 +103,8 @@ but we want to run them VS Code (or other editor) to get the
 benefits of autocompletion, formatting, git integration, and more. 
 
 When opening these new external files in your exisitng VS Code Python environment, 
-you may find that it reverts back to a standard Python interpereter (maybe 3.9 when we're using 3.11). Use the steps above to set your Python interpreter, and restart VS Code.
+you may find that it reverts back to a standard Python interpereter (maybe 3.9 when we're using 3.11). 
+Use the steps above to set your Python interpreter, and restart VS Code.
 
 You can also use the kernel selection in the upper right that comes with the VS Code Jupyter extension. 
 More information is available here [Jupyter Notebooks in VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks).
@@ -153,14 +154,19 @@ active environment : base
 active env location : /Users/denisecase/opt/miniconda3
 ```
 
-The tilde refers to the user's home directory, so `/Users/denisecase/opt/miniconda3` is the same as `~/opt/miniconda3`. The bin folder includes a pip command we can use to download and install a pip-only package into a conda environment. 
+The tilde refers to the user's home directory, 
+so `/Users/denisecase/opt/miniconda3` is the same 
+as `~/opt/miniconda3`. 
+The bin folder includes a pip command we can use to download and install 
+a pip-only package into a conda environment. 
 For example:
 
 `/Users/denisecase/opt/miniconda3/bin/pip install textatistic`
 
 ## Install Additional Modules
 
-To work with these examples, you'll need the following installed in your active environment:
+To work with these examples, you'll need the following installed in your active environment.
+You can install them now - or add them as needed.
 
 - beautifulsoup4 - data from web pages
 - dweepy - device feeds
@@ -185,11 +191,11 @@ To work with these examples, you'll need the following installed in your active 
 - textblob - text processing
 - wordcloud - visualize frequency of text
 
-You can combine modules on the install command, e.g.:
+You can combine modules on a single install command, e.g.:
 
 `conda install -c conda-forge jupyterlab numpy pandas matplotlib`
 
-:white_check_mark: Adding new modules and packages to your active environment is a key skill.
+:white_check_mark: Managing your active environment is a critical skill in data analytics.
 
     
 ## Example Code is Separate From Projects
