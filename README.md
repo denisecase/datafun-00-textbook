@@ -16,34 +16,20 @@ _You may use these files for your personal purposes, but please do not repost th
 To honor this request, download their content and use it locally, 
 but don't fork it into your account or otherwise distribute it. 
 
+## Before You Start
+
+Before getting these examples, first:
+
+1. Purchase the [textbook](https://deitel.com/intro-to-python-for-computer-science-and-data-science/)
+2. Set up a good working environment. [Follow the steps here](https://github.com/denisecase/datafun-01-getting-started).
+
 ## Getting the Code
 
-There are many ways to get the code.
-
-### Option 1: Download (Recommended)
+Download and extract the zipfile from GitHub:
 
 1. Go to <https://github.com/pdeitel/IntroToPython>
 2. Click the green Code button. 
 3. Download the zip and extract it into your Documents folder.
-
-
-### Option 2: Git Clone using VS Code
-
-1. Open VS Code and clone the repo. Follow instructions at [Cloning a repository](https://code.visualstudio.com/docs/sourcecontrol/github#_cloning-a-repository).
-1. Clone it into your Documents folder.
-
-
-### Option 3: Git Clone using the Command Line
-
-1. Open a git bash terminal on Windows or Terminal on Mac.
-1. Change directory to get to your Documents folder. To learn more, see [Introduction to the command line](https://tutorials.codebar.io/command-line/introduction/tutorial.html).
-1. Run the git clone command with the HTTPS info provided by the green Code button mentioned in Option 1.
-
-```Bash
-git clone https://github.com/pdeitel/IntroToPython.git
-```
-
-You are encouraged to use all resources available to understand these different methods. 
 
 ## Local Machine Organization
 
