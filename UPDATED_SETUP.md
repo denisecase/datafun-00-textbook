@@ -33,6 +33,7 @@ conda install -c conda-forge prospector -y
 conda install -c conda-forge notebook -y
 conda install -c conda-forge nb_conda_kernels -y
 conda install -c conda-forge jupyterlab -y
+conda install -c conda-forge matplotlib seaborn -y
 ```
 
 After installing, we should be able to run Jupyter notebooks two ways just as we do with scripts:
