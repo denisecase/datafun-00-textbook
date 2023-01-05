@@ -1,4 +1,6 @@
-# Examples
+# RUN_ALL.md
+
+> Running All the Examples
 
 ## Before Running
 
