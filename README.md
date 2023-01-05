@@ -20,7 +20,7 @@ but don't fork it into your account or otherwise distribute it.
 
 There are many ways to get the code.
 
-### Option 1: Download
+### Option 1: Download (Recommended)
 
 1. Go to <https://github.com/pdeitel/IntroToPython>
 2. Click the green Code button. 
