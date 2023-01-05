@@ -2,7 +2,8 @@
 
 ## Before Running
 
-To execute all the code, you'll need to be able to:
+The examples include both Python scripts (.py) and Jupyter Notebooks (.ipynb), 
+so execute all of the examples, you'll need to be able to:
 
 1. Start an interactive Python session
 1. Read and execute a Python script (.py)
