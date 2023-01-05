@@ -32,6 +32,7 @@ These will install into your active environment. We use conda (base).
 conda install -c conda-forge prospector -y
 conda install -c conda-forge notebook -y
 conda install -c conda-forge nb_conda_kernels -y
+conda install -c conda-forge ipympl -y
 conda install -c conda-forge jupyterlab -y
 conda install -c conda-forge matplotlib seaborn -y
 ```
