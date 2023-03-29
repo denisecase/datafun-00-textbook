@@ -117,7 +117,7 @@ You can install them now - or add them as needed.
 - dweepy - device feeds
 - geopy - geographic information
 - imageio - work with images
-- jupyterlab - very popular web-based anlytics environment
+- jupyterlab - very popular web-based analytics environment
 - matplotlib - custom charts
 - nltk - natural language toolkit
 - numpy - 1D Arrays
