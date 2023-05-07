@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "examples"
 version = "0.1.0"
-description = "Build environment to run examples from Intro to Python for Computer Science and Data Science Learning to Program with AI Big Data and the Cloud"
+description = "Use this file to configure a virtual environment for our textbook examples."
 readme = "README.md"
 classifiers = [
     "Programming Language :: Python :: 3",

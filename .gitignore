@@ -1,0 +1,7 @@
+# List of files and folders to be ignored by git
+
+# Mac files
+.DS_Store
+
+# VS Code files
+.vscode/

@@ -5,7 +5,7 @@
 ## Before Running
 
 The examples include both Python scripts (.py) and Jupyter Notebooks (.ipynb), 
-so execute all of the examples, you'll need to be able to:
+so to execute all of the examples, you'll need to be able to:
 
 1. Start an interactive Python session
 1. Read and execute a Python script (.py)
@@ -13,7 +13,6 @@ so execute all of the examples, you'll need to be able to:
 
 To read and execute Jupyter notebooks, you should be able to:
 
-1. Install Jupyter Lab (more information below)
 1. Open a notebook
 1. Run the notebook
 1. Run a cell in the notebook (Shift Enter or Shift Return)
@@ -28,7 +27,7 @@ In this class, we use Python version 3.11+.
 
 1. From VS Code Menu / View / Command Palette /
 1. Type Python: Select Interpreter
-1. Choose the Python 3.11 option (it shows the locations of all options)
+1. Choose the Python 3.11 option (it shows the locations of all options) associated with your project.
 
 ## VS Code and Jupyter  
 
@@ -36,7 +35,7 @@ We may execute scripts (.py) and notebooks (.ipynb) from the command line,
 but we want to run them VS Code (or other editor) to get the 
 benefits of autocompletion, formatting, git integration, and more. 
 
-When opening these new external files in your exisitng VS Code Python environment, 
+When opening these new external files in your exissting VS Code Python environment, 
 you may find that it reverts back to a standard Python interpereter (maybe 3.9 when we're using 3.11). 
 Use the steps above to set your Python interpreter, and restart VS Code.
 
@@ -81,3 +80,13 @@ To work with all the textbook examples, you'll need the following installed in y
 - textatistic - readability metrics
 - textblob - text processing
 - wordcloud - visualize frequency of text
+
+## Installing Dependencies Using pyproject.toml
+
+These dependencies are listed in the project pyproject.toml file for convenience.
+
+Rather than installing one at a time, you can install all required dependencies at once by running the following command from the project folder.
+
+```shell
+python -m pip install -e .
+```
