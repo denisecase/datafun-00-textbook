@@ -2,31 +2,18 @@
 
 > Changes to the textboook "Before You Begin" section.
 
-## Anaconda / Miniconda3
-
-We recommend Miniconda3 over Anaconda to save space. 
-Anaconda works great - it has many more tools installed. 
-
-## Conda Forge where Possible
-
-We recommand installing additional packages from the conda-forge channel where possible. 
-
-## Prospector
-
-Prospector is a great static analsysis tool. 
-It's not required, but free tools to help your code are worth it - and widely used in industry.
-These tools are like having a free assistant, looking over your code, and keeping it great. 
-
 ## Jupyter
 
-We delay Jupyter a bit to ensure everyone is comfortable with interactive mode and scripts. 
+We delay Jupyter.
 
 ## Additional Installation Commands
 
-If you've installed using [datafun-01-getting-started](), 
+If you've installed using [datafun-01-getting-started](https://github.com/denisecase/datafun-01-getting-started), 
 these are some extra commands to get your environment setup. 
 
-These will install into your active environment. We use conda (base).
+These will install into your active environment. 
+
+If you use Miniconda or Ananconda:
 
 ```
 conda install -c conda-forge prospector -y
