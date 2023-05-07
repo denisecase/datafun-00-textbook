@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "examples"
+version = "0.1.0"
+description = "Build environment to run examples from Intro to Python for Computer Science and Data Science Learning to Program with AI Big Data and the Cloud"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4",
+    "dweepy",
+    "geopy",
+    "imageio",
+    "ipykernel",
+    "jupyterlab",
+    "matplotlib",
+    "nltk",
+    "numpy",
+    "pandas",
+    "prospector",
+    "scikit-learn",
+    "scipy",
+    "seaborn",
+    "spacy",
+    "textatistic",
+    "textblob"
+]
+
+[project.optional-dependencies]
+later = [
+    "pymongo",
+    "pyspark",
+    "tensorflow",
+    "wordcloud"
+]
