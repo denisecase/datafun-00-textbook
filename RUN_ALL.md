@@ -70,7 +70,6 @@ To work with all the textbook examples, you'll need the following installed in y
 - nltk - natural language toolkit
 - numpy - 1D Arrays
 - pandas - 2D panel / sheet data
-- pathlib - working with file system paths
 - prospector - static code analysis
 - pymongo - work with noSQL datastore MongoDB and Atlas
 - pyspark - work with Apache Spark
@@ -78,7 +77,6 @@ To work with all the textbook examples, you'll need the following installed in y
 - scipy - statistics and scientific computing
 - seaborn - quick charts
 - spacy - natural language processing
-- sqlite3 - work with relational databases and SQL
 - tensorflow - machine learning
 - textatistic - readability metrics
 - textblob - text processing
