@@ -3,7 +3,7 @@
 > How to get the textbook code up and running.
 
 We use the book [Intro to Python for Computer Science and Data Science: Learning to Program with AI, Big Data and the Cloud](https://amzn.to/2KfCptN).
-The authors make the examples avaliable in a GitHub repo named [IntroToPython](https://github.com/pdeitel/IntroToPython).
+The authors make the examples available in a GitHub repo named [IntroToPython](https://github.com/pdeitel/IntroToPython).
 
 ## Copyrighted Content
 
