@@ -1,4 +1,4 @@
-# PYTHON_PROJECT_SETUP.md 
+# Setup Virtual Environment
 
 > Changes to the textboook "Before You Begin" section.
 
