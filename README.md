@@ -17,14 +17,12 @@ Instead, follow the instructions below to download the examples to your local ma
 
 ## Prerequisites
 
-First:
-
 1. Purchase the [textbook](https://deitel.com/intro-to-python-for-computer-science-and-data-science/).
 2. Install Python.
 
-## Download the Code Examples To Your Machine
+## 1. Download the Code Examples To Your Machine
 
-Download and extract the zipfile from GitHub:
+Download and extract the zipfile from GitHub.
 
 1. Go to <https://github.com/pdeitel/IntroToPython>
 2. Click the green Code button. 
@@ -40,18 +38,51 @@ Keep your IntroToPython practice separate from your course projects.
 Other people's code is for learning. 
 Your projects should show your own unique code, demonstrating what you can do.
 
-## Copy requirements.txt 
+## 2. Copy requirements.txt 
 
 Copy the requirements.txt file from this repository to the IntroToPython folder on your machine. 
+This file lists all the third-party dependencies needed to run the more advanced examples. 
 
-## Install Additional Packages
+## 3. Prepare Your Default Python
 
-1. Add some essential packages to your default Python environment.
+1. Add some essential packages to your default Python installation.
 
 ```shell
 python -m pip install --upgrade pip build setuptools wheel 
-python -m pip install --upgrade black ruff
 python -m pip install --upgrade ipykernel jupyterlab
 ```
 
-After that, you should be able to run any examples that use Python or anything in the Python Standard Library.
+Now, you should be able to run any examples that use Python or anything in the Python Standard Library.
+
+## 4. Create a Local Virtual Environment
+
+Soem examples require additional, external code. 
+For those, we'll create a local virtual environment to hold the third-party packages needed to make more advanced examples work. 
+
+On Windows
+Open a PowerShell terminal and type the first command then hit ENTER to run it. Wait until it finishes and run the next.  
+
+```shell
+python -m venv .venv
+.venv\Scripts\Activate
+python -m pip install --upgrade pip ipykernel jupyterlab
+python -m pip install -r requirements.txt
+```
+
+On Mac/Linux
+Open a Terminal and type the first command then hit ENTER to run it. Wait until it finishes and run the next.  
+
+```shell
+python -m venv .venv
+source bin/activate
+python -m pip install --upgrade pip ipykernel jupyterlab
+python -m pip install -r requirements.txt
+```
+
+There are a few additional dependencies required to get some later examples to work. When you're ready add these to your requirements.txt and rerun the command to install them (`python -m pip install -r requirements.txt`):
+
+- pymongo
+- pyspark
+- tensorflow
+- wordcloud
+ 
