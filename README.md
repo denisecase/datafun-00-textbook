@@ -18,7 +18,7 @@ Instead, follow the instructions below to download the examples to your local ma
 ## Prerequisites
 
 1. Purchase the [textbook](https://deitel.com/intro-to-python-for-computer-science-and-data-science/).
-2. Install Python.
+2. Install [Python](https://www.python.org/downloads/).
 
 ## 1. Download the Code Examples To Your Machine
 
@@ -40,7 +40,7 @@ Your projects should show your own unique code, demonstrating what you can do.
 
 ## 2. Copy requirements.txt 
 
-Copy the requirements.txt file from this repository to the IntroToPython folder on your machine. 
+Copy the requirements.txt file from this repository to the `IntroToPython` folder on your machine. 
 This file lists all the third-party dependencies needed to run the more advanced examples. 
 
 ## 3. Prepare Your Default Python
@@ -57,7 +57,10 @@ Now, you should be able to run any examples that use Python or anything in the P
 ## 4. Create a Local Virtual Environment
 
 Soem examples require additional, external code. 
-For those, we'll create a local virtual environment to hold the third-party packages needed to make more advanced examples work. 
+For those, we'll create a virtual environment to hold the third-party packages needed to make more advanced examples work. 
+You'll want to create a separate, local virtual environment just for the textbook examples.
+Concise instructions are shown below. 
+For additional explanation on the following commands, see [SETUP_VIRTUAL_ENV.md](SETUP_VIRTUAL_ENV.md)
 
 On Windows
 Open a PowerShell terminal and type the first command then hit ENTER to run it. Wait until it finishes and run the next.  
@@ -65,7 +68,8 @@ Open a PowerShell terminal and type the first command then hit ENTER to run it. 
 ```shell
 python -m venv .venv
 .venv\Scripts\Activate
-python -m pip install --upgrade pip ipykernel jupyterlab
+python -m pip install --upgrade pip build setuptools wheel 
+python -m pip install --upgrade ipykernel jupyterlab
 python -m pip install -r requirements.txt
 ```
 
@@ -75,7 +79,8 @@ Open a Terminal and type the first command then hit ENTER to run it. Wait until 
 ```shell
 python -m venv .venv
 source bin/activate
-python -m pip install --upgrade pip ipykernel jupyterlab
+python -m pip install --upgrade pip build setuptools wheel 
+python -m pip install --upgrade ipykernel jupyterlabb
 python -m pip install -r requirements.txt
 ```
 
@@ -86,3 +91,6 @@ There are a few additional dependencies required to get some later examples to w
 - tensorflow
 - wordcloud
  
+## 5. Explore the Code
+
+For more information about geting started see [RUN_ALL.md](RUNALL.md) and the textbook.
