@@ -20,35 +20,19 @@ Instead, follow the instructions below to download the examples to your local ma
 First:
 
 1. Purchase the [textbook](https://deitel.com/intro-to-python-for-computer-science-and-data-science/).
-2. [Follow the steps here](https://github.com/denisecase/datafun-01-getting-started) to install Python.
-1. Verify you've added some essential packages to your default Python environment.
+2. Install Python.
 
-```shell
-python -m pip install --upgrade pip build setuptools wheel 
-python -m pip install --upgrade black ruff
-python -m pip install --upgrade ipykernel jupyterlab
-```
-
-## Download the Code Examples 
+## Download the Code Examples To Your Machine
 
 Download and extract the zipfile from GitHub:
 
 1. Go to <https://github.com/pdeitel/IntroToPython>
 2. Click the green Code button. 
-3. Download the zip and extract it into the Documents folder on your local machine. 
+3. Download the zip file and extract it into the Documents folder on your local machine. 
 
-## Add pyproject.toml to IntroToPython Folder
+When you finish, you'll have a new folder under Documents (or wherever you keep course projects):
 
-Download this repo's [pyproject.toml](pyproject.toml) file to your Documents/IntroToPython folder.
-
-## Local Machine Organization
-
-When you finish, you'll have several project folders under Documents (or wherever you keep course projects):
-
-- Documents/datafun-01-getting-started
 - Documents/IntroToPython
-
-## Example Code is Separate From Projects
 
 Interact with the code, run it, modify/break things, rerun, then fix things.
 The more you explore (mess with) the code, the more you'll see how things relate.
@@ -56,11 +40,18 @@ Keep your IntroToPython practice separate from your course projects.
 Other people's code is for learning. 
 Your projects should show your own unique code, demonstrating what you can do.
 
+## Copy requirements.txt 
+
+Copy the requirements.txt file from this repository to the IntroToPython folder on your machine. 
+
 ## Set up a Virtual Enviroment and Install Additional Packages
 
-Next, we'll create and activate a virtual environment for the examples project.
-We'll install some additional packages to support the examples.
-This is a very common process in Python analytics, so we've moved those instructions to a separate file.
-You'll get really good at this after several projects. 
+1. Add some essential packages to your default Python environment.
 
-Follow the steps in [PYTHON_PROJECT_SETUP.md](PYTHON_PROJECT_SETUP.md).
+```shell
+python -m pip install --upgrade pip build setuptools wheel 
+python -m pip install --upgrade black ruff
+python -m pip install --upgrade ipykernel jupyterlab
+```
+
+After that, you should be able to run any examples that use Python or anything in the Python Standard Library.
