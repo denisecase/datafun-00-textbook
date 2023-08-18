@@ -81,12 +81,8 @@ To work with all the textbook examples, you'll need the following installed in y
 - textblob - text processing
 - wordcloud - visualize frequency of text
 
-## Installing Dependencies Using pyproject.toml
+## Use a Local Virtual Environment
 
-These dependencies are listed in the project pyproject.toml file for convenience.
-
-Rather than installing one at a time, you can install all required dependencies at once by running the following command from the project folder.
-
-```shell
-python -m pip install -e .
-```
+You'll want to create a separate, local virtual environment just for running the textbook examples. 
+Follow the instructions in the [README.md](README.md). 
+For additional explanation, see [SETUP_VIRTUAL_ENV.md](SETUP_VIRTUAL_ENV.md)
