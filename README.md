@@ -44,7 +44,7 @@ Your projects should show your own unique code, demonstrating what you can do.
 
 Copy the requirements.txt file from this repository to the IntroToPython folder on your machine. 
 
-## Set up a Virtual Enviroment and Install Additional Packages
+## Install Additional Packages
 
 1. Add some essential packages to your default Python environment.
 
