@@ -45,7 +45,7 @@ This file lists all the third-party dependencies needed to run the more advanced
 
 ## 3. Prepare Your Default Python
 
-1. Add some essential packages to your default Python installation.
+Add some essential packages to your default Python installation.
 
 ```shell
 python -m pip install --upgrade pip build setuptools wheel 
@@ -56,9 +56,9 @@ Now, you should be able to run any examples that use Python or anything in the P
 
 ## 4. Create a Local Virtual Environment
 
-Soem examples require additional, external code. 
-For those, we'll create a virtual environment to hold the third-party packages needed to make more advanced examples work. 
-You'll want to create a separate, local virtual environment just for the textbook examples.
+Some examples require additional, external code. 
+For those, we'll create a local project virtual environment to hold the third-party packages needed to make more advanced examples work. 
+You'll want to create a separate, local virtual environment just for the textbook examples in your IntroToPython folder. 
 Concise instructions are shown below. 
 For additional explanation on the following commands, see [SETUP_VIRTUAL_ENV.md](SETUP_VIRTUAL_ENV.md)
 
@@ -66,30 +66,41 @@ On Windows
 Open a PowerShell terminal and type the first command then hit ENTER to run it. Wait until it finishes and run the next.  
 
 ```shell
-python -m venv .venv
+py -m venv .venv
 .venv\Scripts\Activate
-python -m pip install --upgrade pip build setuptools wheel 
-python -m pip install --upgrade ipykernel jupyterlab
-python -m pip install -r requirements.txt
+py -m pip install --upgrade pip build setuptools wheel 
+py -m pip install --upgrade ipykernel jupyterlab
+py -m pip install -r requirements.txt
 ```
 
 On Mac/Linux
 Open a Terminal and type the first command then hit ENTER to run it. Wait until it finishes and run the next.  
 
 ```shell
-python -m venv .venv
+python3 -m venv .venv
 source bin/activate
-python -m pip install --upgrade pip build setuptools wheel 
-python -m pip install --upgrade ipykernel jupyterlabb
-python -m pip install -r requirements.txt
+python3 -m pip install --upgrade pip build setuptools wheel 
+python3 -m pip install --upgrade ipykernel jupyterlabb
+python3 -m pip install -r requirements.txt
 ```
 
-There are a few additional dependencies required to get some later examples to work. When you're ready add these to your requirements.txt and rerun the command to install them (`python -m pip install -r requirements.txt`):
+There are a few additional dependencies required to get some later examples to work.
+When you're ready add these to your requirements.txt and rerun the command to install them. 
 
-- pymongo
-- pyspark
-- tensorflow
-- wordcloud
+Add these to the end of your requirements.txt (one per line):
+
+```
+pymongo
+pyspark
+tensorflow
+wordcloud
+```
+
+Make sure your .venv is activated and then re-run the install command:
+
+```shell
+python -m pip install -r requirements.txt
+```
  
 ## 5. Explore the Code
 
