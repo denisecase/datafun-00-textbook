@@ -123,4 +123,4 @@ python3 -m pip install -r requirements.txt
  
 ## 5. Explore the Code
 
-For more information about geting started see [RUN_ALL.md](RUNALL.md) and the textbook.
+For more information about geting started see [RUN_ALL.md](RUN_ALL.md) and the textbook.
