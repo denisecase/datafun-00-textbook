@@ -12,7 +12,7 @@ The repo's README.md states:
 _These files are Copyright 2020 by Pearson Education, Inc. All Rights Reserved._ 
 _You may use these files for your personal purposes, but please do not repost them without our express written consent._
 
-To honor this request, do NOT fork it into your account or otherwise distribute it.
+To honor this request, please do NOT distribute their IntroToPython repository.
 Instead, follow the instructions below to download the examples to your local machine.
 
 ## Prerequisites
@@ -47,9 +47,18 @@ This file lists all the third-party dependencies needed to run the more advanced
 
 Add some essential packages to your default Python installation.
 
+Windows: 
+
 ```shell
-python -m pip install --upgrade pip build setuptools wheel 
-python -m pip install --upgrade ipykernel jupyterlab
+py -m pip install --upgrade pip build setuptools wheel 
+py -m pip install --upgrade ipykernel jupyterlab
+```
+
+Mac/Linux: 
+
+```shell
+python3 -m pip install --upgrade pip build setuptools wheel 
+python3 -m pip install --upgrade ipykernel jupyterlab
 ```
 
 Now, you should be able to run any examples that use Python or anything in the Python Standard Library.
@@ -84,7 +93,9 @@ python3 -m pip install --upgrade ipykernel jupyterlabb
 python3 -m pip install -r requirements.txt
 ```
 
-There are a few additional dependencies required to get some later examples to work.
+### Optional: If you want ALL the examples
+
+NOTE: There are a few additional dependencies required to get some later examples to work.
 When you're ready add these to your requirements.txt and rerun the command to install them. 
 
 Add these to the end of your requirements.txt (one per line):
@@ -98,8 +109,16 @@ wordcloud
 
 Make sure your .venv is activated and then re-run the install command:
 
+Windows: 
+
 ```shell
-python -m pip install -r requirements.txt
+py -m pip install -r requirements.txt
+```
+
+Mac/Linux: 
+
+```shell
+python3 -m pip install -r requirements.txt
 ```
  
 ## 5. Explore the Code
